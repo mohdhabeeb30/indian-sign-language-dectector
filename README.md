@@ -1,5 +1,6 @@
 # Indian Sign Language – Non-Manual Feature Interpreter (MVP)
-A lightweight browser-based system that reads facial expressions, head movements, and shoulder posture to generate meaningful ISL cues in real time.
+A lightweight browser-based system that reads facial expressions, head movements, and shoulder posture to gener![Uploading Image1.png…]()
+ate meaningful ISL cues in real time.
 
 ---
 
