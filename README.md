@@ -12,7 +12,7 @@ The current version runs on a **rule-based detection system**, while future vers
 # Project Demo
 
 ## 1. Input Gesture
-![Input Gesture](images/input.jpg)
+![Input Gesture](images/Image1.jpg)
 
 ## 2. Hand Landmark Detection
 ![Landmark](images/landmark.png)
