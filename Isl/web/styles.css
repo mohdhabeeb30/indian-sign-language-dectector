@@ -1,0 +1,216 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  margin: 0;
+  background: #f5f5f5;
+}
+
+body.big-font {
+  font-size: 18px;
+}
+
+body.big-font #nmfText {
+  font-size: 24px !important;
+}
+
+body.big-font pre {
+  font-size: 14px !important;
+}
+
+#controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  flex-wrap: wrap;
+}
+
+#controls button {
+  padding: 10px 16px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+#controls button:hover {
+  background: #0056b3;
+}
+
+#controls #clearBtn {
+  background: #dc3545;
+}
+
+#controls #clearBtn:hover {
+  background: #c82333;
+}
+
+#controls #bigFontBtn {
+  background: #28a745;
+}
+
+#controls #bigFontBtn:hover {
+  background: #218838;
+}
+
+#controls #saveDataBtn {
+  background: #ffc107;
+  color: #333;
+}
+
+#controls #saveDataBtn:hover {
+  background: #e0a800;
+}
+
+#controls #downloadDataBtn {
+  background: #17a2b8;
+  color: white;
+}
+
+#controls #downloadDataBtn:hover {
+  background: #138496;
+}
+
+#controls label {
+  font-weight: 500;
+  color: #555;
+}
+
+#controls input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.main-content {
+  display: flex;
+  gap: 20px;
+}
+
+#container {
+  position: relative;
+  background: #000;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+video {
+  width: 640px;
+  height: 480px;
+  display: block;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 640px;
+  height: 480px;
+  pointer-events: none;
+}
+
+#log {
+  width: 400px;
+  height: 480px;
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  overflow-y: auto;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.tag {
+  font-weight: bold;
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #007bff;
+}
+
+#nmfText {
+  font-size: 16px;
+  color: #007bff;
+  min-height: 60px;
+  padding: 12px;
+  background: #f8f9fa;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 16px 0;
+}
+
+#features {
+  font-family: 'Courier New', monospace;
+  font-size: 12px;
+  background: #f8f9fa;
+  padding: 12px;
+  border-radius: 4px;
+  margin: 0;
+  line-height: 1.4;
+  color: #333;
+}
+
+strong {
+  color: #555;
+  font-size: 14px;
+}
+
+#transcriptLog {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  max-height: 300px;
+  overflow-y: auto;
+  margin-top: 20px;
+}
+
+#transcriptLog h3 {
+  margin-top: 0;
+  color: #333;
+  font-size: 18px;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 8px;
+  margin-bottom: 12px;
+}
+
+#transcriptLog .transcript-entry {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  gap: 10px;
+}
+
+#transcriptLog .transcript-entry:last-child {
+  border-bottom: none;
+}
+
+#transcriptLog .transcript-time {
+  color: #888;
+  font-size: 11px;
+  min-width: 80px;
+  font-family: 'Courier New', monospace;
+}
+
+#transcriptLog .transcript-text {
+  color: #333;
+  flex: 1;
+}
